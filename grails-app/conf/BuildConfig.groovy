@@ -55,5 +55,15 @@ grails.project.dependency.resolution = {
 //        }
         //runtime ":rest:0.8"
         //compile ":rest:0.8"
+
+        // support for static code analysis
+        compile ":codenarc:0.21"
+    }
+}
+
+codenarc.reports = {
+    TransmartAppReport('html') {
+        outputFile = 'CodeNarc-folder-management-plugin-Report.html'
+        title = 'Report for folder-management-plugin'
     }
 }
