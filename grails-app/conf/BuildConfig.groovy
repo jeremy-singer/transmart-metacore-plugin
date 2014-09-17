@@ -63,7 +63,7 @@ grails.project.dependency.resolution = {
 
 codenarc.reports = {
     TransmartAppReport('html') {
-        outputFile = 'CodeNarc-folder-management-plugin-Report.html'
-        title = 'Report for folder-management-plugin'
+        outputFile = 'CodeNarc-metacore-plugin-Report.html'
+        title = 'Report for metacore-plugin'
     }
 }
